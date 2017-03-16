@@ -1,0 +1,87 @@
+body {
+    /*padding: 0;
+    overflow: hidden;*/
+    font-family: helvetica, arial, sans-serif;
+}
+
+p{
+  font-weight:normal;
+  font-family: arial;
+  font-size:15px;
+}
+
+header{
+  position: absolute;
+      font-weight: normal;
+      font-family: arial;
+      font-size: 25px;
+      z-index: 2000;
+      color: gainsboro;
+      left: 75%;;
+}
+
+.map {
+    position: absolute;
+    right: 0px;
+    left: 0;
+    height: 100%;
+    top: 0;
+}
+
+.title{
+  /*position: absolute;*/
+  top: 10px;
+  left: 020px;
+  font-family: helvetica, arial, sans-serif;
+  font-size:20px;
+  font-weight:bold;
+}
+
+
+#button-next {
+  position: absolute;
+  margin-top: -20px;
+  color: rgba(255, 255, 255, 0.78);
+  font-weight: normal;
+  font-size: 15px;
+  transition: 0.6s ease;
+  z-index: 2000;
+  background-color: #222;
+  top: 85px;
+  left: 86%;
+  border: none
+}
+
+#button-prev {
+  position: absolute;
+      margin-top: -20px;
+      color: rgba(216, 216, 216, 0.91);
+      font-weight: normal;
+      font-size: 15px;
+      transition: 0.6s ease;
+      z-index: 2000;
+      background-color: rgba(26, 26, 26, 0.72);
+      top: 85px;
+      border: none;
+      right: 197px;
+}
+
+#button-reset {
+  position: absolute;
+      margin-top: -20px;
+      color: rgba(216, 216, 216, 0.91);
+      font-weight: normal;
+      font-size: 15px;
+      transition: 0.6s ease;
+      z-index: 2000;
+      background-color: rgba(26, 26, 26, 0.72);
+      top: 85px;
+      border: none;
+      right: 28px
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+#button-prev, .#button-next {
+  background-color: white;
+}
